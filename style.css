@@ -1,6 +1,104 @@
-.dm-sans-<uniquifier> {
+body {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-weight: 400;
+  font-style: regular;
+  color: white;
+  background-color: black;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ 
+header{
+  background-image: url(assets/image-header.png);
+  background-size: cover;
+  height: 115vh;
+
+}
+
+.headercontainer{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+  }
+
+  nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 35px;
+  }
+  .herocontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 16px;
+    height: 90vh;
+    justify-content: center;
+    align-items: start;
+    width: fit-content;
+    justify-self: center;
+    padding-top: 170px;
+}
+h1{
+  font-size: 53px;
+  font-style: medium;
+  line-height:1;
+  margin-bottom: 16px;
+}
+
+.deuxiemeligne{
+  display: block;
+  font-size: 64px;
+  font-style: regular;
+}
+
+.herocontainer p{
+  font-size: 28px;
+  font-style: bold;
+  padding-bottom: 70px;
+}
+
+.btnBilletterie{
+  background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-decoration: none;
+    box-shadow: 0 0px 15px #ffffff6e;
+}
+
+.btnplusdinfos{
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  padding: 25px;
+  margin-left: 8px;
+  text-decoration: none;
+}
+.mainContainer {
+    width: 1080px;
+    margin: auto;
+}
+/* section 2 */
+.margin-bottom{
+  margin-bottom: 64px;
+}
+
+h2{
+  margin-bottom: 24px;
+}
+.titredeniveaudeux{
+  font-style: regular;
+  font-size: 48px;
+}
+
+.presentationdufestival{
+  font-style:regular;
+  font-size: 20px;
 }
