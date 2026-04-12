@@ -15,7 +15,7 @@ body {
 header{
   background-image: url(assets/image-header.png);
   background-size: cover;
-  height: 115vh;
+  height: 120vh;
 
 }
 
@@ -38,7 +38,7 @@ header{
     flex-direction: column;
     color: white;
     gap: 16px;
-    height: 90vh;
+    height: 105vh;
     justify-content: center;
     align-items: start;
     width: fit-content;
@@ -101,4 +101,242 @@ h2{
 .presentationdufestival{
   font-style:regular;
   font-size: 20px;
+}
+
+.imagedechanteur{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    height: fit-content;
+}
+
+.deuxiemetitredeniveaudeux{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+}
+
+.listedesdates{
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin-top:30px ;
+  font-size: 20px;
+}
+
+.premieredate{
+  border-top: dashed white 2px;
+  border-bottom: dashed white 2px;
+}
+
+.secondedate{
+  border-bottom: dashed white 2px;
+}
+
+.troisiemedate{
+  border-bottom: dashed white 2px;
+}
+
+.quatriemedate{
+  border-bottom: dashed white 2px;
+}
+
+.cinquiemedate{
+  border-bottom: dashed white 2px;
+}
+
+.sixiemedate{
+  border-bottom: dashed white 2px;
+}
+
+.septiemedate{
+  border-bottom: dashed white 2px;
+}
+
+.huitiemedate{
+  border-bottom: dashed white 2px;
+}
+
+.lienversBILLETTERIE{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0px 15px #ffffff6e;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.sectionphotoseule{
+  background-image: url(assets/banniere-logo.png);
+    background-image: url(assets/banniere-logo.png);
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    width: 1250px;
+    height: 30vh;
+}
+
+.differentslogos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.spotifylogo{
+  margin-right: 4px;
+}
+
+.UBERlogo{
+  margin-left: 12px;
+}
+
+.DEEZERlogo{
+  margin-left: 12px;
+}
+
+.MOTOROLAlogo{
+  margin-left: 12px;
+}
+
+.formulaireinformation{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.formulaireimportant{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.importantinformations{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.name{
+    width: auto;
+    height: 3vh;
+    color: black;
+  }
+
+.email{
+    width: auto;
+    height: 3vh;
+    color: black;
+}
+
+.phone{
+    width: auto;
+    height: 3vh;
+    color: black;
+}
+
+.message{
+    width: auto;
+    height: 20vh;
+    color: black;
+}
+
+.btncontact{
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 8px;
+    text-decoration: none;
+    width: 110px;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    padding-top: 30px;
+}
+
+.footer{
+  margin-top: 50px;
+}
+
+.premieredivfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.email{
+  color: white;
+  font-size: 20px;
+}
+
+.lienrapturecloud{
+  color: white;
+  text-decoration-line: underline;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.letterun{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.inputletter{
+    color: black;
+    border: solid white 3px;
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.btnSUBSCRIBE{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: solid white 2px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.pieddepage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 20px;
+  border: solid white 25px;
+  height: 0vh;
+}
+.dernierparagraphe{
+  color: black;
+  font-size: 14px;
+}
+.derniersliens{
+  color: black;
+  font-size: 14px;
 }
